@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Multimedia</title>
+</head>
+
+<body style="font-family: Arial; margin: 20px;">
+
+    <h1 style="text-align: center; color: navy;">
+        HTML5 Multimedia Demonstration
+    </h1>
+
+    <!-- 1. Responsive Image -->
+    <h2>1. Responsive Image</h2>
+
+    <p>
+        The same image adjusts its size according
+        to the available screen width.
+    </p>
+    
+    <img src="https://examplefiles.org/files/images/jpg-sample-800x600.jpg"
+         alt="Sample photo"
+          style="max-width: 100%; height: auto;">
+  
+    
+    <hr>
+
+    <!-- 2. Audio Playback -->
+    <h2>2. Audio Playback</h2>
+
+    <audio controls>
+        <source
+            src="https://examplefiles.org/files/audio/mp3-sample-5s.mp3"
+            type="audio/mpeg">
+
+        Your browser does not support audio.
+    </audio>
+
+    <hr>
+
+    <!-- 3. Video Playback -->
+    <h2>3. Video Playback</h2>
+
+    <video
+        controls
+        width="500"
+        poster="https://examplefiles.org/files/images/jpg-sample-800x600.jpg"
+        style="max-width: 100%; height: auto;">
+
+        <source
+            src="https://examplefiles.org/files/video/mp4-sample-720p-5s.mp4"
+            type="video/mp4">
+
+        Your browser does not support video.
+    </video>
+
+</body>
+</html>
